@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+      "preset": "ts-jest",
+      "testEnvironment": "jsdom",
+      "globals": {
+        "ts-jest": {
+          "isolatedModules": true
+        }
+      },
+      "transform": {
+        "^.+\\.jsx?$": "babel-jest"
+      },
+      "moduleNameMapper": {},
+      "moduleDirectories": ["js", ".", "node_modules"],
+      "testMatch": ["**/*spec.tsx"]
+    },
+    {
+      "displayName": "node",
+      "preset": "ts-jest",
+      "testEnvironment": "node",
+      "globals": {
+        "ts-jest": {
+          "isolatedModules": true
+        }
+      },
+      "transform": {
+        "^.+\\.jsx?$": "babel-jest"
+      },
+      "moduleNameMapper": {},
+      "moduleDirectories": ["js", ".", "node_modules"],
+      "testMatch": ["**/*spec.ts"]
+    }
+  ]
+}
