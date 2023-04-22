@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/delivery-fee-calculator/static/css/main.70542069.css",
+    "main.js": "/delivery-fee-calculator/static/js/main.50180ad6.js",
+    "index.html": "/delivery-fee-calculator/index.html",
+    "main.70542069.css.map": "/delivery-fee-calculator/static/css/main.70542069.css.map",
+    "main.50180ad6.js.map": "/delivery-fee-calculator/static/js/main.50180ad6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70542069.css",
+    "static/js/main.50180ad6.js"
+  ]
+}
